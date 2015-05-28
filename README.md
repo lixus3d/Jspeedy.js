@@ -14,7 +14,9 @@ Selecting :
 // Quickest
 var jspeedyObject = $$.byId('item-id');
 var jspeedyObject = $$.byClass('item-class');
-// Quicker than jQuery
+var jspeedyObject = $$.getNew(domElement);
+var jspeedyObject = $$.createFromHTML('<div class="item-class">text</div>');
+// Quicker than jQuery but jQuery way
 var jspeedyObject = $$('#item-id');
 var jspeedyObject = $$('.item-class');
 ```
